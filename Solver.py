@@ -3,7 +3,7 @@
 
 # In[33]:
 
-
+'''Sample board used for testing'''
 board = [
     [7,8,0,4,0,0,1,2,0],
     [6,0,0,0,7,5,0,0,9],
@@ -70,17 +70,6 @@ def solve(board):
                 return True
             board[row][col]=0
     return False
-    
-
-
-# In[35]:
-
-
-solve(board)
-
-
-# In[ ]:
-
 
 
 
